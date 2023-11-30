@@ -1,14 +1,23 @@
-body { 
+html { 
     border: 3px solid rgb(105, 34, 34);
     font-family:'Courier New', Courier, monospace;
     background-image: url(img/skate.jpg);
     backdrop-filter: blur(5px);
-    background-size: cover;  
+    background-size: inherit;  
     background-position: bottom;
     background-position: right;
     background-repeat: no-repeat;
     margin: 0;
-    /* overflow: hidden; */
+     overflow: hidden; 
+     height: 100vmax;
+     width: 100%;
+}
+
+
+
+
+footer {
+    backdrop-filter: blur(5px);
 }
 
 
@@ -82,7 +91,6 @@ h1 {
 }*/
 
 .img-body {
-    border: 3px solid black;
     height: 300px;
     border-radius: 30% 70% 76% 24% / 56% 33% 67% 44% ;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
